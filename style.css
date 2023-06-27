@@ -1,0 +1,442 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.first-role {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+  
+.skin-clinic{
+    color: blue;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    padding-left: 20px;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-right: 20px;
+}
+
+.home{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+}
+
+.book{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 15px;
+}
+
+.rectangle-77{
+    width: 640px;
+    height: 445px;
+    background: #DFE9F4;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 25px 50px;
+    gap: 10px;
+    position: absolute;
+    left: 800px;
+    top: 260px;
+
+}
+
+.discover{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 65px;
+    color: #054C73;
+    margin-top: 15px;
+}
+
+.lorem{
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 35px;
+    margin-top: 15px;
+}
+
+.book-an-appointment{
+    margin: 0;
+}
+
+.buy{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+    width: 120px;
+    height: 25px;
+    background: #054C73;
+    border-radius: 50px;
+    padding: 20px;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    border: none;
+}
+
+.image-scandivan{
+    position: relative;
+    width: 100%;
+}
+
+.rectangle{
+    background: #F2F5FF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    padding: 50px;
+    margin-top: 0;
+}
+
+.free{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.delivery-text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #302f2f;
+}
+
+.inspo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.inspiration{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: black;
+}
+
+.skin-co{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #666666;
+}
+
+.images-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 35px;
+   padding-top: 60px;
+}
+
+.nterior{
+    position: relative;
+}
+
+.lamp{
+    position: absolute;
+    left: 1125px;
+    top: 1268px;
+}
+
+.img-1{
+    height: 805px;
+    margin-top: 35px;
+}
+
+.img-3{
+    height: 805px;
+    margin-top: 35px;
+}
+
+.img-2{
+    /* margin-bottom: 20px; */
+    border-radius: 10px;
+}
+
+.container{
+    display: flex;
+    height: 874px;
+    background-color: #F2F5FF;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.beauty{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin-left: 60px;
+    padding: 25px;
+    gap: 20px;
+}
+
+.beautify{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 39px;
+    color: rgb(33, 33, 46);
+}
+
+.content{
+    font-family: 'Montserrat';
+    font-weight: 450;
+    font-size: 30px;
+    line-height: 39px;
+    color: #666666;
+    
+}
+
+.button{
+    margin: 0;
+}
+
+.learn{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+    width: 120px;
+    height: 25px;
+    background: #054C73;
+    border-radius: 50px;
+    padding: 10px;
+    padding-bottom: 10px;
+    border: none;
+}
+
+.eclipse{
+   position: absolute;
+   right: 150px;
+   top: 2300px;
+}
+
+.lady{  
+    margin-right: 250px;
+    position: relative;
+}
+
+.lady-img{
+    border-top-left-radius: 35px;
+}
+
+.role-8{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+    padding: 15px;
+}
+
+.dinning-image{
+    width: 30%;
+}    
+
+.dinning{
+    padding: 20px;
+    margin-left: 150px;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Montserrat';
+}
+
+.role-10{
+
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
+.role-10-image{
+    width: 30%;
+}
+
+.role-10-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.skin-co1{
+    font-weight: 450;
+    font-size: 25px;
+    line-height: 24px;
+    text-align: center;
+    color: #666666;
+}
+
+.role-11{
+    background-color: rgba(242, 245, 255, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+    padding: 40px 40px 40px 40px;
+}
+
+.skin-co11{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 24px;
+    color: #666666;
+}
+
+.foot{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+#example{
+    height: 55px;
+    width: 350px;
+    padding: 15px;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: none;
+    border-bottom-right-radius: none;
+    /* border-color:  #03344f; */
+}
+
+/* .button{
+    height: 60px;
+    width: 70px;
+    padding: 15px;
+    border-radius: 4px;
+    border-color:  #03344f;
+} */
+
+.submi{
+    height: 55px;
+    width: 120px;
+    padding: 15px;
+    border-radius: 4px;
+    background-color: rgba(3, 52, 79, 1);
+    border: none;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color:  rgba(3, 52, 79, 1);
+}
+
+.ig-shop{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #ffffff;
+    padding-bottom: 25px;
+}
+
+.instagram{
+    /* margin: 30px; */
+    padding: 50px 20px 70px 0;
+    gap: 25px;
+    margin-right: 95px;
+}
+
+.ig-img{
+    display: flex;
+    gap: 20px;
+}
+
+.beauty-care{
+    padding: 40px 20px 70px 0;
+    margin-left: 95px;
+}
+
+.beaut{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #ffffff;
+    padding-bottom: 25px;
+}
+
+.beautyy-text{
+    font-weight: 350;
+    font-size: 30px;
+    line-height: 24px;
+    padding-top: 20px;
+    color: #ffffff;
+}
+
+.follow{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #ffffff;
+    padding-top: 30px;
+}
